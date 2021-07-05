@@ -1,0 +1,55 @@
+h1{
+    padding-top: 50px;
+    margin: auto;
+    width: fit-content;
+    border-bottom: 1px solid #000000;
+}
+body{
+    background: #ce4128;
+}
+.grid {
+    overflow: hidden;
+      padding: 0.5em 0 0 0.5em;
+      max-width: 76em;
+      margin: 0 auto;
+  }
+  .grid li {
+      padding: 2em;
+  }
+  .grid li > div {
+      border-radius: 30%;
+      background: #000000;
+      padding: 7em 2em;
+      text-align: center;
+  }
+  .grid li a {
+      color: #fff;
+      text-decoration: none;
+  }
+  .grid li a:hover{
+      color: rgb(241, 117, 117);
+  }
+  
+  @media all and (min-width: 27em) {
+      .grid li {
+          width: 50%;
+          float: left;
+      }
+  }
+  
+  @media all and (min-width: 40em) {
+      .grid li {
+          width: 33.3333333%;
+      }
+      .grid li.wide {
+          width: 66.666666%;
+      }
+  }
+  @media all and (min-width: 60em) {
+      .grid li {
+          width: 25%;
+      }
+      .grid li.wide {
+          width: 50%;
+      }
+  }
