@@ -1,12 +1,14 @@
+body{
+    background: #000000;
+}
 h1{
-    padding-top: 50px;
+    padding: 50px 0;
     margin: auto;
     width: fit-content;
-    border-bottom: 1px solid #000000;
+    color: #fff;
+    font-family: 'Righteous', cursive;
 }
-body{
-    background: #ce4128;
-}
+
 .grid {
     overflow: hidden;
       padding: 0.5em 0 0 0.5em;
@@ -17,17 +19,25 @@ body{
       padding: 2em;
   }
   .grid li > div {
-      border-radius: 30%;
+      border-radius: 10%;
       background: #000000;
       padding: 7em 2em;
       text-align: center;
+      border-bottom: 1px solid #fff;
+      border-left: 1px solid #fff;
+      box-shadow: rgb(148, 148, 148) -15px 15px 15px -10px;
   }
   .grid li a {
       color: #fff;
       text-decoration: none;
+      font-family: 'Righteous', cursive;
   }
   .grid li a:hover{
       color: rgb(241, 117, 117);
+  }
+  .grid li > div:hover{
+    box-shadow: rgb(241, 117, 117) -15px 15px 15px -10px;
+
   }
   
   @media all and (min-width: 27em) {
